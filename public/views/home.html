@@ -1,0 +1,11 @@
+
+<div ng-init="iisDetails()">
+    <div ng-repeat="client in iisObjResult.data" ng-controller="mainCtrl">
+        <p><h4>Client Ip Address: {{client.cip}}</h4> </p>
+        <p><h4>Client # calls {{client.frequency}}</h4></p>
+        <div ng-repeat="fqdn in client.fqdn">
+            <p><h4>&nbsp;&nbsp;&nbsp;&nbsp; Client type {{fqdn}}</h4> </p>
+        </div>
+        <br/>
+    </div>
+</div>
