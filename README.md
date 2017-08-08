@@ -1,4 +1,4 @@
-# 3man Log file reader
+# Log file reader
 Reading IIS Log file contained into the folder resourceFiles and identify clients ip, 
 number of request and client type. Technologies: Angular 1.x, NodeJs, npm, bower. Ide: Idea IJ
 
